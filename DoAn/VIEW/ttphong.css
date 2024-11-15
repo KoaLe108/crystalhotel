@@ -1,0 +1,83 @@
+/* Tổng quan */
+body {
+    background-image: radial-gradient( gray, black);
+    background-repeat: no-repeat;
+    height:max-content;
+}
+
+/* Tiêu đề của trang */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #d9d9d9c6;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Các khung nhỏ cho từng phòng */
+.small-box {
+    background-color: #d9d9d9c6;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Chỉnh sửa hình ảnh trong phần carousel */
+.small-box img {
+    border-radius: 8px;
+    margin-bottom: 15px; 
+}
+
+.carousel-inner img {
+    border-radius: 8px;
+    height: 500px; 
+    object-fit: cover;
+}
+
+/* Mô tả phòng */
+.small-box p {
+    margin-top: 10px; 
+    font-size: 16px;  
+    line-height: 1.5; 
+}
+
+/* Phần hiển thị giá và nút Đặt phòng */
+.room-info {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 15px; 
+}
+/* Phần loại phòng */
+.room-type p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Phần giá phòng */
+.room-price p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Nút Đặt phòng */
+.room-booking button {
+    background-color: black;  
+    color: white;             
+    border: 2px solid black; 
+    padding: 10px 20px;      
+    font-size: 16px;         
+    border-radius: 5px;      
+    cursor: pointer;        
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Thêm hiệu ứng hover cho nút */
+.room-booking button:hover {
+    background-color: white;
+    color: black;
+    border-color: black;
+}

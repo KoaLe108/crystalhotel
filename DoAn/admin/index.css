@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    color: #333;
+    min-height: 100vh;
+}
+
+form {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-height: 500px; /* Giới hạn chiều cao cho form */
+    overflow-y: auto;  /* Thêm thanh cuộn dọc */
+}
+
+.thongtinkhachhang {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.thongtinkhachhang label {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-left: 4px solid #777;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    align-self: center;
+}
+
+button[type="submit"] {
+    width: 240px;
+    padding: 10px;
+    margin: 10px 5px 0;
+    font-size: 16px;
+    color: #fff;
+    background-color: #888;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #666;
+}
+
+button[type="submit"]:last-of-type {
+    background-color: #999;
+}
+
+button[type="submit"]:last-of-type:hover {
+    background-color: #777;
+}
+
+.themttkh {
+    margin-top: 20px;
+}
+
+.themttkh a {
+    text-decoration: none;
+}
+
+.themttkh button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #666;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.themttkh button:hover {
+    background-color: #555;
+}

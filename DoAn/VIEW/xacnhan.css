@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(-45deg, #000000, #ffcc00, #202020, #ffcc00);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+.hotel-name {
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: right; 
+}
+.form-container {
+    width: 500px;
+    background-color: #0000008b;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);   
+}
+
+.form-title {
+    display:flex;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #fff;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-confirm {
+    width: 295px;
+    height: 35.5px;
+    background-color: #d6cccc; 
+    font-weight: bold;
+    color: #fff;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-cancel {
+    width: 195px;
+    height: 35.5px;
+    background-color: #d6cccc; 
+    font-weight: bold;
+    color: #fff;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-confirm:hover{
+    background-color: #848080;
+}
+
+h1 {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 10px;
+    color: rgb(58, 49, 0);
+    text-shadow: 
+    0 0 10px rgb(255, 233, 107),
+    0 0 20px rgb(255, 233, 107),
+    0 0 40px rgb(255, 233, 107),
+    0 0 80px rgb(255, 233, 107);
+}
+img{
+    width: 25px;
+    margin-right: 45px;
+}
+p{
+    font-weight: bold;
+    font-size: 22px;
+}
